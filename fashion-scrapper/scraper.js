@@ -33,6 +33,6 @@ app.get('/api/products', (req, res) => {
 });
 
 app.listen(3001, () => {
-  console.log('🚀 Fashion Scraper: http://192.168.1.48:3001/api/products');
+  console.log('🚀 Fashion Scraper: http://10.194.112.149:3001/api/products');
   console.log('✅ 3 hot products ready!');
 });
